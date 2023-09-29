@@ -1,0 +1,301 @@
+
+#root {
+  max-width: 1920px;
+  width:fit-content; 
+  text-align: center;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 2rem;
+  text-align: center;
+  padding-right: 6em;
+  --twitter-background: #E6E6E6;
+}
+
+/*Register*/
+
+.register_form {
+  margin: 15px auto;
+  width: 600px;
+  height: 800px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.register_form a {
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+.register_account {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.birth_date {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.twitter_logo {
+ margin-left: 18rem;
+ margin-bottom: 2em;
+}
+/*MainPage*/
+
+.main_page {
+  height: 1080px;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.mainpage_account {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.mainpage_account p {
+  display: block;
+}
+.footer_info {
+  width: 100%;
+  margin-left: 8em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer_info footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_info footer a {
+  font-size: smaller;
+  margin: 8px;
+}
+
+span {
+  color: #1E97E1;
+}
+
+.info_web {
+  font-size: 12px;
+  color: black;
+}
+
+.account {
+  font-size: 16px;
+}
+
+/*Login*/
+ 
+.login_page{
+  background-color: FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  width: 130%;  
+} 
+
+.logo {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.login {
+  font-weight: bolder;
+  display: flex;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#name {
+  margin: 15px 0 25px 0;
+  padding: 16px;
+  border-radius: 6px;
+}
+#email {
+  margin: 20px 0 15px 0;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+#password {
+  margin: 15px 0 25px 0;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  color: #1DA1F2;
+  margin-top: 35px;
+}
+
+.option a {
+  text-decoration: none;
+  
+}
+
+/*NavBar*/
+
+.navBar_list {
+  width:268px;
+  height: 911px;
+  border-right: 1px solid var(--twitter-background);
+  padding-right: 20px;
+}
+ .navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+.navBar_option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: large;
+  font-weight: 500;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.navbar_option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: large;
+  row-gap: 10px;
+  font-weight: 500;
+  justify-content: space-between;
+  
+}
+.info {
+  display: flex;
+  margin-top: 10em;
+  margin-left: 5px;
+  justify-content: space-around;
+
+}
+.info_span span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: black;
+}
+
+/*TweetList */
+
+.tweet {
+  font-weight: bold;
+  
+}
+
+.feed_page {
+  border-right: 1px solid var(--twitter-background);
+  min-width:fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.feed {
+  border: 1px solid var(--twitter-background);
+  padding: 10px 20px 5px;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.feed h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.tweet_input {
+  display: flex;
+  border-bottom: 1px solid var(--twitter-background);
+}
+
+.text_input {
+  display: flex;
+  padding: 20px;
+
+}
+
+.text_input input {
+  border: none;
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.icon_button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 4rem;
+  gap: 15px;
+  margin-right: 6em;
+}
+/*Feed*/
+
+.feedPage {
+  display: flex;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
